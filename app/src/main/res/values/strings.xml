@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mels_Proj</string>
+    <string name="placeholder" tools:ignore="ExtraTranslation">something</string>
+    <string name="foods" tools:ignore="ExtraTranslation">Foods</string>
+    <string name="ingredients" tools:ignore="ExtraTranslation">Ingredients</string>
+    <string name="measure" tools:ignore="ExtraTranslation">Measure</string>
+    <string name="generate_recipe">Generate Recipe</string>
+    <string name="generating">Generating…</string>
+    <string name="added_to_favorites">Added to favorites</string>
+</resources>

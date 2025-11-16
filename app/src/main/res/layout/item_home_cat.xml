@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/lotion"
+    android:clickable="true"
+    android:focusable="true"
+    app:strokeColor="@android:color/holo_red_dark"
+    app:strokeWidth="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingHorizontal="16dp"
+        android:gravity="center_vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_category_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textColor="?attr/colorOnSurface"
+            tools:text="type" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
