@@ -231,25 +231,3 @@ Benefits:
 
 ---
 
-## 🧪 Testing
-
-Recommended / existing tests:
-- Unit tests for data mappers (API → Entity → UI model)
-- Repository tests (success + failure paths)
-- ViewModel tests (state transitions, filters, favorites behavior)
-
----
-
-## 🛣️ Roadmap
-
-- Migrate manual DI to **Hilt**
-- Add more UI polish & animations
-- Improve error + empty states (skeletons, retry buttons)
-- Pagination for searches
-- Better offline experience (cached meal lists)
-
----
-
-## 📄 License
-
-MIT License (or your chosen license).
