@@ -2,7 +2,7 @@
 *A Kotlin MVVM Recipe Application Powered by AI & TheMealDB*
 
 <p align="center">
-  <img src="docs/home.png" width="65%" alt="Home screen"/>
+  <img src="home.jpg" width="65%" alt="Home screen"/>
 </p>
 
 ---
@@ -47,7 +47,7 @@ The AI recipes are fetched from a separate backend (FastAPI), but this README fo
 - Displays in **the same UI** as regular meals
 
 <p align="center">
-  <img src="docs/ai-generate.png" width="65%" alt="AI Generation"/>
+  <img src="ai-generate.jpg" width="65%" alt="AI Generation"/>
 </p>
 
 ---
